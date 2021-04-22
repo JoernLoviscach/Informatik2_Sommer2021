@@ -1,0 +1,15 @@
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd.csprojAssemblyReference.cache
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\MainWindow.g.cs
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\App.g.cs
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd_MarkupCompile.cache
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd_MarkupCompile.lref
+C:\Users\jl\source\repos\Herd\Herd\bin\Debug\Herd.exe.config
+C:\Users\jl\source\repos\Herd\Herd\bin\Debug\Herd.exe
+C:\Users\jl\source\repos\Herd\Herd\bin\Debug\Herd.pdb
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\MainWindow.baml
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd.g.resources
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd.Properties.Resources.resources
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd.csproj.GenerateResource.cache
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd.csproj.CoreCompileInputs.cache
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd.exe
+C:\Users\jl\source\repos\Herd\Herd\obj\Debug\Herd.pdb
