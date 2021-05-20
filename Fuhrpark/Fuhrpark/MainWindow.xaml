@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="132,80,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-
+        <Button x:Name="button" Content="Test-Button" HorizontalAlignment="Left" Margin="132,80,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <ListBox x:Name="listBoxFahrzeuge" HorizontalAlignment="Left" Height="302" Margin="338,41,0,0" VerticalAlignment="Top" Width="164" SelectionChanged="listBoxFahrzeuge_SelectionChanged"/>
+        <Button x:Name="buttonElektro" Content="Neues Elektroauto" HorizontalAlignment="Left" Margin="540,223,0,0" VerticalAlignment="Top" Width="124" Click="buttonElektro_Click"/>
+        <Button x:Name="buttonFahrrad" Content="Neues Fahrrad" HorizontalAlignment="Left" Margin="540,248,0,0" VerticalAlignment="Top" Width="124" Click="buttonFahrrad_Click"/>
+        <Button x:Name="buttonLaden" Content="Aufladen" HorizontalAlignment="Left" Margin="540,323,0,0" VerticalAlignment="Top" Width="124" Click="buttonLaden_Click" IsEnabled="False"/>
+        <Button x:Name="buttonFahren" Content="10 km Fahren" HorizontalAlignment="Left" Margin="540,298,0,0" VerticalAlignment="Top" Width="124" Click="buttonFahren_Click" IsEnabled="False" />
+        <Button x:Name="buttonSortiere" Content="Sortiere nach Reichweite" HorizontalAlignment="Left" Margin="540,131,0,0" VerticalAlignment="Top" Width="165" Click="buttonSortiere_Click"/>
     </Grid>
 </Window>

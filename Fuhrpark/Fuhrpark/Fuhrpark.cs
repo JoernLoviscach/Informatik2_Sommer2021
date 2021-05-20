@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; // ganz etwas anderes als #include in C
 
 namespace Fuhrpark
 {
@@ -29,6 +29,7 @@ namespace Fuhrpark
     class Pkw : Fahrzeug
     {
         string kennzeichen;
+        public string Kennzeichen { get { return kennzeichen; } }
         public Pkw(string kennzeichen)
         {
             this.kennzeichen = kennzeichen;
@@ -70,6 +71,10 @@ namespace Fuhrpark
         {
             return maximaleReichweite * stateOfChargeProzent / 100.0 * stateOfHealthProzent / 100.0;
         }
+        public override string ToString()
+        {
+            return "Elektro-Pkw " + Kennzeichen + " " + (stateOfChargeProzent/100.0).ToString("P1");
+        }
     }
 
     class HerkömmlichesFahrrad : Fahrzeug
@@ -77,6 +82,10 @@ namespace Fuhrpark
         public override double SchätzeReichweite()
         {
             return 10.0;
+        }
+        public override string ToString()
+        {
+            return "Fahrrad";
         }
     }
 
